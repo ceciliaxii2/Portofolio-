@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cecilia Nurfazrin</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body { box-sizing: border-box; }
+    * { scroll-behavior: smooth; }
+    .font-display { font-family: 'Playfair Display', serif; }
+    .font-body { font-family: 'Poppins', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .card-hover { transition: all 0.4s ease; }
+    .card-hover:hover { transform: translateY(-8px); }
+    .glass {
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+
+<body class="font-body bg-gradient-to-br from-slate-50 via-purple-50 to-pink-50">
+
+<header class="glass sticky top-0 z-50 shadow-sm">
+  <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="font-display text-2xl font-bold gradient-text">Cecilia</h1>
+    <div class="hidden md:flex gap-6">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="home" class="px-6 py-20 text-center">
+  <h2 class="font-display text-5xl font-bold mb-4">Cecilia Nurfazrin</h2>
+  <p class="text-xl text-gray-600 mb-2">Siswi Kelas 12 SMAN 1 Subang</p>
+  <p class="text-gray-500">📚 Pecinta Novel & Kuliner</p>
+</section>
+
+<section id="about" class="px-6 py-20 bg-white/40">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="font-display text-4xl font-bold mb-6">Tentang Saya</h3>
+    <p class="text-gray-600">
+      Saya Cecilia Nurfazrin, lahir 3 Mei 2008. Hobi saya memasak dan membaca novel.
+      Saya tertarik pada dunia kesehatan dan pengembangan diri.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="px-6 py-20">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="font-display text-4xl font-bold mb-10">Keahlian</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="glass p-6 rounded-xl card-hover">🧠 Berpikir Kritis</div>
+      <div class="glass p-6 rounded-xl card-hover">⚡ Bergerak Cepat</div>
+      <div class="glass p-6 rounded-xl card-hover">🍳 Memasak</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="px-6 py-20 bg-white/40">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="font-display text-4xl font-bold mb-6">Hubungi Saya</h3>
+    <p>Email: <b>cecilia@email.com</b></p>
+    <p>Instagram: <b>@cecilia.nurfazrin</b></p>
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-white text-center py-6">
+  <p class="text-gray-400">© 2025 Cecilia Nurfazrin</p>
+</footer>
+
+</body>
+</html>
